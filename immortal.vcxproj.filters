@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="immortal.cpp" />
+    <ClCompile Include="include\imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_impl_glfw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_impl_opengl3.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="HyperV.cpp">
+      <Filter>include</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="menu.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="cache.h">
+      <Filter>cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk.h">
+      <Filter>cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="safe_ptr.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="skcrypt.h">
+      <Filter>encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="xorfloat.h">
+      <Filter>encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="vectors.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="HyperV.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{fbdc98d1-3688-4fb0-a5b4-3d684d5012e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu">
+      <UniqueIdentifier>{a12ecfdc-b877-47a9-a800-c5d2c53fbe85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat">
+      <UniqueIdentifier>{7221f270-4f63-4118-9d3a-61db92c435e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{1b4a3411-f8c9-4c84-b3d0-fac717015422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{348f8150-463c-4b0c-8c6a-53ff9704c501}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="encryption">
+      <UniqueIdentifier>{b86feb2a-c276-4c72-88f0-86485dbcaec6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="Asm.asm" />
+  </ItemGroup>
+</Project>
